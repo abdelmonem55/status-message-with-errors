@@ -32,7 +32,7 @@ impl StatusMessage {
         self.unique_values.insert(&message)
     }
 
-    pub fn get_status(&self, account_id: AccountId) -> Option&ltString&gt {
+    pub fn get_status(&self, account_id: AccountId) -> Option<String> {
         self.records.get(&account_id);
     }
 }
